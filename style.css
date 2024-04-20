@@ -1,0 +1,412 @@
+    body {
+        width: 1600px;
+        height: 1000px;
+        background-color: #FFFFFF;
+        border: 20px;
+        position: relative;
+    }
+    /* reset code start here */
+    
+    .clear {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    /* 
+.hyperlink {
+    text-decoration: none;
+} */
+    
+    .food__website {
+        position: relative;
+    }
+    
+    .food__website_logo {
+        color: #A72121;
+        width: 147px;
+        height: 33px;
+        text-decoration: none;
+        position: absolute;
+        top: 61px;
+        left: 150px;
+        font-weight: bold;
+    }
+    /* navbar start here */
+    
+    .nav-bar {
+        width: 428px;
+        height: 36px;
+        position: relative;
+        left: 475px;
+        top: 52px;
+    }
+    
+    .nav-bar ul {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nav-bar li,
+    a {
+        text-decoration: none;
+        list-style: none;
+        text-transform: capitalize;
+    }
+    
+    .nav-bar #home {
+        width: 47px;
+        height: 23px;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        color: #380E0E;
+        font-weight: bold;
+    }
+    
+    .nav-bar #home {
+        text-decoration: underline;
+    }
+    
+    .nav-bar #service {
+        width: 69px;
+        height: 23px;
+        position: absolute;
+        left: 82px;
+        bottom: 10px;
+        font-weight: medium;
+        color: #C22020;
+    }
+    
+    .nav-bar #hotline {
+        width: 57px;
+        height: 23px;
+        position: absolute;
+        left: 176px;
+        bottom: 10px;
+        font-weight: medium;
+        color: #371010;
+    }
+    
+    .nav-bar #Categories {
+        width: 87px;
+        height: 23px;
+        position: absolute;
+        left: 256px;
+        bottom: 10px;
+        font-weight: medium;
+        color: #371010;
+    }
+    
+    .nav-bar #About {
+        width: 48px;
+        height: 23px;
+        position: absolute;
+        left: 370px;
+        bottom: 10px;
+        font-weight: medium;
+        color: #371010;
+    }
+    /* navbar ends here */
+    /* header start here */
+    
+    h6 {
+        font-weight: bold;
+        font-size: 40px;
+        display: inline-block;
+    }
+    
+    h6 {
+        color: #461010;
+    }
+    
+    span {
+        color: #C22020;
+    }
+    
+    .header_container {
+        width: 570px;
+        height: 439px;
+        position: relative;
+        left: 150px;
+        top: 225px;
+        /* border: 3px solid green; */
+        padding: 5px;
+    }
+    
+    .header_title {
+        width: 570px;
+        height: 194px;
+        position: absolute;
+        /* left: 150px; */
+        /* top: 225px; */
+        /* margin-bottom: 5px; */
+        /* border: 5px solid pink; */
+    }
+    
+    .header_body {
+        width: 554px;
+        height: 77px;
+        position: relative;
+        /* left: 150px; */
+        top: 270px;
+        /* border: 1px solid red; */
+    }
+    
+    .container_btn {
+        width: 166px;
+        height: 64px;
+        position: absolute;
+        /* left: 150px; */
+        top: 400px;
+    }
+    
+    .header_btn {
+        border-radius: 10;
+        background-color: #A72121;
+        color: #FFFFFF;
+        padding: 5px;
+        border: none;
+    }
+    
+    .header_dlt_dolar {
+        width: 51px;
+        height: 18px;
+        position: absolute;
+        /* left: 150px; */
+        top: 400px;
+        left: 170px;
+        color: #A72121;
+        font-weight: bold;
+    }
+    
+    .header_dolar::first-letter {
+        font-size: 10px;
+    }
+    
+    .header_dolar span {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .header_dolar {
+        width: 51px;
+        height: 18px;
+        position: absolute;
+        /* left: 150px; */
+        top: 400px;
+        left: 300px;
+        color: #A72121;
+        font-weight: bold;
+    }
+    
+    .header_wth_more {
+        width: 92px;
+        height: 12.4px;
+        position: absolute;
+        /* left: 150px; */
+        top: 400px;
+        left: 400px;
+        color: #2C0C0C;
+        font-weight: bold;
+    }
+    
+    .header_img {
+        width: 623px;
+        height: 1135.25px;
+        position: absolute;
+        /* left: 150px; */
+        /* left: 903px; */
+        top: -395.25px;
+        border-radius: mixed;
+    }
+    
+    .header_img>img {
+        width: 623px;
+        height: 608.33px;
+        position: absolute;
+        /* left: 150px; */
+        left: 903px;
+        top: 131.67px;
+    }
+    /* .header_img_btn {
+    width: 86px;
+    height: 18px;
+    position: absolute;
+    
+    left: 1344px;
+    top: 61px;
+} */
+    
+    .header_img_icon {
+        width: 150px;
+        height: 30px;
+        position: absolute;
+        align-items: center;
+        justify-content: space-evenly;
+        /* left: 150px; */
+        /* left: 903px; */
+        left: 1425px;
+        top: 4px;
+        /* border: 4px solid green; */
+        display: flex;
+    }
+    
+    .header_heart_span {
+        width: 18px;
+        height: 17px;
+        /* position: absolute; */
+        text-align: justify;
+        /* left: 150px; */
+        /* left: 903px; */
+        /* top: 5px; */
+        padding: 5px;
+        /* text-align: right; */
+        /* border: 2px solid black; */
+        color: #FFFFFF;
+    }
+    
+    .header_heart_span2 {
+        width: 18px;
+        height: 17px;
+        /* position: absolute; */
+        /* left: 150px; */
+        /* left: 903px; */
+        /* top: 5px; */
+        /* left: 35px; */
+        padding: 5px;
+        /* text-align: center; */
+        /* border: 2px solid black; */
+        color: #FFFFFF;
+    }
+    
+    .header_heart_span3 {
+        width: 18px;
+        height: 17px;
+        /* position: absolute; */
+        text-align: justify;
+        /* left: 150px; */
+        /* left: 903px; */
+        /* top: 5px; */
+        padding: 5px;
+        /* text-align: ; */
+        /* border: 2px solid black; */
+        color: #FFFFFF;
+    }
+    /* header ends here */
+    /* card start here */
+    
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .card_container {
+        border: 3px solid #000000;
+        position: absolute;
+        left: 141px;
+        top: 740px;
+        width: 302px;
+        /* height: 228px; */
+        border-radius: mixed;
+        text-align: center;
+        /* border: 3px solid black; */
+        /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+        margin: 0 auto;
+    }
+    
+    .card_container2 {
+        border: 3px solid #000000;
+        position: absolute;
+        left: 473px;
+        top: 740px;
+        width: 302px;
+        /* height: 228px; */
+        border-radius: mixed;
+        text-align: center;
+        /* border: 3px solid black; */
+        /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+        margin: 0 auto;
+    }
+    
+    .card_container3 {
+        border: 3px solid #000000;
+        position: absolute;
+        left: 803px;
+        top: 740px;
+        width: 302px;
+        /* height: 228px; */
+        border-radius: mixed;
+        text-align: center;
+        /* border: 3px solid black; */
+        /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+        margin: 0 auto;
+    }
+    
+    .card_container4 {
+        border: 3px solid #000000;
+        position: absolute;
+        left: 1137px;
+        top: 740px;
+        width: 302px;
+        /* height: 228px; */
+        border-radius: mixed;
+        text-align: center;
+        /* border: 3px solid black; */
+        /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+        margin: 0 auto;
+    }
+    
+    .card_img {
+        width: 124px;
+        height: 124px;
+        display: flex;
+        flex: start;
+    }
+    
+    .card_span {
+        position: absolute;
+        width: 58px;
+        height: 28px;
+        left: 240px;
+        top: 20px;
+    }
+    
+    .card_paragraph {
+        font-weight: bold;
+        font-size: 24px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .card_content::after {
+        content: '';
+        display: inline-block;
+        width: 100px;
+        height: 20px;
+        background-color: #D9D9D9;
+    }
+    
+    .card_star_para {
+        color: #FFE600;
+        font-size: 25px;
+    }
+    
+    .card_pre {
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .card_btn button {
+        border: 1px solid gray;
+        padding: 10px;
+    }
+    /* card ends here */
